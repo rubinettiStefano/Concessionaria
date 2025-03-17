@@ -1,0 +1,41 @@
+Vogliamo creare un modello per una concessionaria che vende veicoli
+
+le mie classi saranno
+
+- Veicolo
+    - Automobile
+        - Berlina
+        - Fuoristrada
+    - Moto
+        - Motocross
+        - Scooter
+
+- Persona
+    - Cliente
+    - Impiegato
+
+
+Sia per berlina che fuoristrada voglio avere:
+targa
+velMax
+cavalli
+cilindrata
+accessori (string)
+
+solo per fuoristrada
+pendioMax (in gradi, un double)
+altezzaDaTerra (in cm, un intero)
+
+solo per berlina
+dimensioneBagagliaio (in cm^3)
+numeroPorte
+
+anche le moto hanno targa,velmax e cavalli, ma hanno anche il peso e il numeroMarce
+motrocross ha anche ruoteTassellate (booleano), tipoGancio (occhiale,uncino,moschettone)
+Scooter ha  abitacolo (boolean), bagagliaio (boolean)
+
+
+
+tutte le persone devono avere nome,cognome,codicefiscale
+    - clienti hanno IBAN (fate poco, una String di 6 caratteri) e una percentuale di sconto (double, da 0 a 0.5)
+    - dipendenti invece hanno ruolo (String) e una RAL (int, stipendio annuale lordo)
