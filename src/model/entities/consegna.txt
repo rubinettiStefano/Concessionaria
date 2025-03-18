@@ -31,7 +31,7 @@ dimensioneBagagliaio (in cm^3)
 numeroPorte
 
 anche le moto hanno targa,velmax e cavalli, ma hanno anche il peso e il numeroMarce
-motrocross ha anche ruoteTassellate (booleano), tipoGancio (occhiale,uncino,moschettone)
+motocross ha anche ruoteTassellate (booleano), tipoGancio (occhiale,uncino,moschettone)
 Scooter ha  abitacolo (boolean), bagagliaio (boolean)
 
 
@@ -39,3 +39,28 @@ Scooter ha  abitacolo (boolean), bagagliaio (boolean)
 tutte le persone devono avere nome,cognome,codicefiscale
     - clienti hanno IBAN (fate poco, una String di 6 caratteri) e una percentuale di sconto (double, da 0 a 0.5)
     - dipendenti invece hanno ruolo (String) e una RAL (int, stipendio annuale lordo)
+
+
+-------------------------------------------------------------------------------------
+
+Seconda parte
+
+1) Mettere un toString overridato in ogni classe. nelle classi "finali", Berlina,Fuoristrada,Motocross,Scooter,Cliente,
+    Dipendente, partire dalla versione ereditata grazie al super
+2)Creare un package chiamato "prove" con dentro una classe chiamata ProvePolimorfiche, dove vi chiedo di creare una lista
+di Object, dentro questa lista mettere un oggetto di ogni tipo (Berlina,Fuoristrada,Motocross,Scooter,Cliente,Dipendente)
+
+3) Scorrere la lista e stampare ogni elemento
+
+4) stampare solo delle AUTOMOBILI (Berline e Fuoristrada) la targa, andandole a selezionare dalla lista grazie a
+ instanceof Automobile
+
+
+
+
+
+
+
+
+
+
